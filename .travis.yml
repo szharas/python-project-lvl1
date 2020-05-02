@@ -1,0 +1,11 @@
+language: python
+
+before_install:
+	# make depends on poetry
+	- pip install poetry
+
+install:
+	- make install
+
+script:
+	- make lint

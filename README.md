@@ -4,4 +4,4 @@
 
 [![Build Status](https://travis-ci.org/szharas/python-project-lvl1.svg?branch=master)](https://travis-ci.org/szharas/python-project-lvl1)
 
-<script id="asciicast-dkwvYVhyJR5ny0NqBJmRynak8" src="https://asciinema.org/a/dkwvYVhyJR5ny0NqBJmRynak8.js" async></script>
+<a href="https://asciinema.org/a/dkwvYVhyJR5ny0NqBJmRynak8" target="_blank"><img src="https://asciinema.org/a/dkwvYVhyJR5ny0NqBJmRynak8.svg" /></a>

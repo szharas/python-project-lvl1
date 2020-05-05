@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 from brain_games.cli import welcome_user
+from brain_games.scripts.check_even import start_game
 
 
 def greet():
@@ -9,6 +10,7 @@ def greet():
 
 def main():
     greet()
+    start_game()
 
 
 if __name__ == '__main__':

@@ -5,10 +5,6 @@ from random import randint
 DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".'
 
 
-def brain_even_game():
-    return DESCRIPTION, generate_question
-
-
 def generate_question():
     question = randint(1, 100)
     is_even = question % 2 == 0

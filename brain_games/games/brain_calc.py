@@ -5,10 +5,6 @@ from random import randint, choice
 DESCRIPTION = 'What is the result of the expression?'
 
 
-def brain_calc_game():
-    return DESCRIPTION, generate_question
-
-
 def generate_question():
     question = ''
     correct_answer = ''

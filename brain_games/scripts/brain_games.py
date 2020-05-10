@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 from brain_games.cli import welcome_user
-# from brain_games.scripts.check_even import start_game
 from brain_games.scripts.game_engine import play_game
-from brain_games.games.brain_even import brain_even_game
-from brain_games.games.brain_calc import brain_calc_game
+import brain_games.games.brain_even
+import brain_games.games.brain_calc
 
 
 def greet():
@@ -11,22 +10,23 @@ def greet():
 
 
 def brain_calc():
-    DESCRIPTION, question_generator = brain_calc_game()
-    main(DESCRIPTION, question_generator)
+    main(brain_games.games.brain_calc)
 
 
 def brain_even():
-    DESCRIPTION, question_generator = brain_even_game()
-    main(DESCRIPTION, question_generator)
+    main(brain_games.games.brain_even)
 
 
-def main(DESCRIPTION=None, game=None):
+def main(game=None):
     greet()
-    if DESCRIPTION:
-        print(DESCRIPTION + '\n')
+
+    if game:
+        print(game.DESCRIPTION + '\n')
+
     user_name = welcome_user()
 
     if game:
+        print()
         play_game(game, user_name)
 
 

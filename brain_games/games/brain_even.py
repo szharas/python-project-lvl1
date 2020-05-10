@@ -10,7 +10,7 @@ def generate_question():
     is_even = question % 2 == 0
     correct_answer = 'yes' if is_even else 'no'
 
-    return (question, correct_answer)
+    return question, correct_answer
 
 
 def main():

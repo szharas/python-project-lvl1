@@ -15,16 +15,16 @@ def generate_question():
     operator = choice(operators)
 
     if operator == 'add':
-        question = str(operand_1) + ' + ' + str(operand_2)
-        correct_answer = operand_1 + operand_2
+        question = '{} + {}'.format(operand_1, operand_2)
+        correct_answer = str(operand_1 + operand_2)
     elif operator == 'substract':
-        question = str(operand_1) + ' - ' + str(operand_2)
-        correct_answer = operand_1 - operand_2
+        question = '{} - {}'.format(operand_1, operand_2)
+        correct_answer = str(operand_1 - operand_2)
     elif operator == 'multiply':
-        question = str(operand_1) + ' * ' + str(operand_2)
-        correct_answer = operand_1 * operand_2
+        question = '{} * {}'.format(operand_1, operand_2)
+        correct_answer = str(operand_1 * operand_2)
 
-    return question, str(correct_answer)
+    return question, correct_answer
 
 
 def main():

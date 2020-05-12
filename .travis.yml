@@ -1,16 +1,14 @@
 language: python
 python:
-	- 3.8
+  - 3.8
 
 before_install:
-  - echo -e "machine github.com\n  login $GITHUB_TOKEN" > ~/.netrc
-  - git lfs pull
-	# make depends on poetry
-	- pip install poetry
-	- poetry add --dev flake8
+  # make depends on poetry
+  - pip install poetry
+  - poetry add --dev flake8
 
 install:
-	- make install
+  - make install
 
 script:
-	- make lint
+  - make lint

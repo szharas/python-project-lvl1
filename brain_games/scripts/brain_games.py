@@ -32,7 +32,9 @@ def main(game=None):
     greet()
 
     if game:
-        print(game.DESCRIPTION + '\n')
+        print(game.DESCRIPTION)
+
+    print()
 
     user_name = welcome_user()
 

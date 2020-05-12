@@ -6,3 +6,6 @@ lint:
 
 build: lint
 	poetry build
+
+publish: lint build
+	poetry publish

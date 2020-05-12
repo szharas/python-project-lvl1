@@ -1,7 +1,11 @@
 #!/usr/bin/env python
 from brain_games.cli import welcome_user
 from brain_games.scripts.game_engine import play_game
-from brain_games.games import brain_even, brain_calc, brain_gcd, brain_progression, brain_prime
+from brain_games.games import brain_even
+from brain_games.games import brain_calc
+from brain_games.games import brain_gcd
+from brain_games.games import brain_progression
+from brain_games.games import brain_prime
 
 
 def greet():
@@ -37,7 +41,7 @@ def main(game=None):
     print()
 
     user_name = welcome_user()
-	print()
+    print()
 
     if game:
         play_game(game, user_name)

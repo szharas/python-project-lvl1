@@ -37,9 +37,9 @@ def main(game=None):
     print()
 
     user_name = welcome_user()
+	print()
 
     if game:
-        print()
         play_game(game, user_name)
 
 

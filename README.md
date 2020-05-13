@@ -5,7 +5,7 @@
 Download using pip:
 `pip install --extra-index-url https://test.pypi.org/simple szharas-brain-games`
 
-[![asciicast](https://asciinema.org/a/lCJFslA1GJrcvl8xxSran14Ws.svg)](https://asciinema.org/a/lCJFslA1GJrcvl8xxSran14Ws)
+[![asciicast](https://asciinema.org/a/RFDlpRl2veUlftHVQQcPXlD1w.svg)](https://asciinema.org/a/RFDlpRl2veUlftHVQQcPXlD1w)
 
 Brain-even
 [![asciicast](https://asciinema.org/a/blufIHR7xNVqFDSG2KPQ2PHmw.svg)](https://asciinema.org/a/blufIHR7xNVqFDSG2KPQ2PHmw)

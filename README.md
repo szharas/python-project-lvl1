@@ -2,7 +2,8 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability) [![Build Status](https://travis-ci.com/szharas/python-project-lvl1.svg?branch=master)](https://travis-ci.com/szharas/python-project-lvl1)
 
-Download using pip: `pip install --extra-index-url https://test.pypi.org/simple szharas-brain-games`
+Download using pip:
+`pip install --extra-index-url https://test.pypi.org/simple szharas-brain-games`
 
 [![asciicast](https://asciinema.org/a/lCJFslA1GJrcvl8xxSran14Ws.svg)](https://asciinema.org/a/lCJFslA1GJrcvl8xxSran14Ws)
 

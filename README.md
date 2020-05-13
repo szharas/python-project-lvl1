@@ -8,7 +8,13 @@ Download using pip:
 [![asciicast](https://asciinema.org/a/RFDlpRl2veUlftHVQQcPXlD1w.svg)](https://asciinema.org/a/RFDlpRl2veUlftHVQQcPXlD1w)
 
 Brain-even
-[![asciicast](https://asciinema.org/a/blufIHR7xNVqFDSG2KPQ2PHmw.svg)](https://asciinema.org/a/blufIHR7xNVqFDSG2KPQ2PHmw)
+[![asciicast](https://asciinema.org/a/L4ritm8jip8OMnwnFwjBAnyOg.svg)](https://asciinema.org/a/L4ritm8jip8OMnwnFwjBAnyOg)
 
 Brain-calc
-[![asciicast](https://asciinema.org/a/yd44lFFzDUe2zjAKMajqlNU8p.svg)](https://asciinema.org/a/yd44lFFzDUe2zjAKMajqlNU8p)
+[![asciicast](https://asciinema.org/a/o9B8EvjzS7P4ddlfICJKB8YXc.svg)](https://asciinema.org/a/o9B8EvjzS7P4ddlfICJKB8YXc)
+
+Brain-gcd
+[![asciicast](https://asciinema.org/a/qrNDAP8YUi0KjpJ0oYBS9DLpC.svg)](https://asciinema.org/a/qrNDAP8YUi0KjpJ0oYBS9DLpC)
+
+Brain-progression
+[![asciicast](https://asciinema.org/a/rm0zM03Ol7B0xnPeGqvMbFOmT.svg)](https://asciinema.org/a/rm0zM03Ol7B0xnPeGqvMbFOmT)

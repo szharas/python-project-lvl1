@@ -3,6 +3,7 @@ name = "szharas_brain_games"
 version = "0.4.0"
 description = "Brain games project from hexlet.io"
 authors = ["Shynggys Zharas <sm.zharas@gmail.com>"]
+classifiers = ["Operating System :: POSIX :: Linux"]
 packages = [
   { include = "brain_games" },
   ]

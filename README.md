@@ -9,6 +9,7 @@ Created with:
 - Poetry
 - Travis CI
 - codeclimate
+- flake8
 
 ### How to run?
 - Download using pip: `pip install --extra-index-url https://test.pypi.org/simple szharas-brain-games`.

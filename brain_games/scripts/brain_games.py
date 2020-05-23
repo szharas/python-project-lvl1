@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from brain_games.cli import welcome_user
-from brain_games.scripts.game_engine import play_game
+from brain_games.games.game_engine import play_game
 from brain_games.games import brain_even
 from brain_games.games import brain_calc
 from brain_games.games import brain_gcd

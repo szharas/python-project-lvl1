@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 from random import randint
 from math import gcd
 

@@ -2,8 +2,18 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability) [![Build Status](https://travis-ci.com/szharas/python-project-lvl1.svg?branch=master)](https://travis-ci.com/szharas/python-project-lvl1)
 
-Download using pip:
-`pip install --extra-index-url https://test.pypi.org/simple szharas-brain-games`
+This is brain-games package with five games: brain-calc, brain-even, brain-gcd, brain-prime and brain-progression.
+
+Created with:
+- Python ^3.8
+- Poetry
+- Travis CI
+- codeclimate
+
+### How to run?
+- Download using pip: `pip install --extra-index-url https://test.pypi.org/simple szharas-brain-games`.
+- After package is downloaded, you can run in terminal typing a name (ex: brain-even).
+- Read the instructions and enjoy the game.
 
 [![asciicast](https://asciinema.org/a/RFDlpRl2veUlftHVQQcPXlD1w.svg)](https://asciinema.org/a/RFDlpRl2veUlftHVQQcPXlD1w)
 

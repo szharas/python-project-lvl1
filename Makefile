@@ -8,4 +8,5 @@ build: lint
 	poetry build
 
 publish: lint build
-	poetry publish
+	poetry config repositories.TestPyPI https://test.pypi.org/legacy/
+	poetry publish --repository TestPyPI

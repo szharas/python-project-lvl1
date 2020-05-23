@@ -25,10 +25,3 @@ def generate_question():
 
     return question, correct_answer
 
-
-def main():
-    generate_question()
-
-
-if __name__ == '__main__':
-    main()

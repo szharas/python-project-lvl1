@@ -22,10 +22,3 @@ def play_game(game, user_name):
 
     print("Congratulations, {}!".format(user_name))
 
-
-def main():
-    play_game()
-
-
-if __name__ == '__main__':
-    main()

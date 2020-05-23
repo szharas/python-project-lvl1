@@ -20,11 +20,3 @@ def generate_question():
     question = ' '.join(str(e) for e in numbers)
 
     return question, correct_answer
-
-
-def main():
-    generate_question()
-
-
-if __name__ == '__main__':
-    main()

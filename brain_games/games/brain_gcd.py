@@ -15,11 +15,3 @@ def generate_question():
     correct_answer = str(gcd(num_1, num_2))
 
     return question, correct_answer
-
-
-def main():
-    generate_question()
-
-
-if __name__ == '__main__':
-    main()

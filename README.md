@@ -12,7 +12,7 @@ Created with:
 
 ### How to run?
 - Download using pip: `pip install --extra-index-url https://test.pypi.org/simple szharas-brain-games`.
-- After package is downloaded, you can run in terminal typing a name (ex: brain-even).
+- After package is downloaded, you can run in terminal typing the name of the game (ex: brain-even).
 - Read the instructions and enjoy the game.
 
 [![asciicast](https://asciinema.org/a/RFDlpRl2veUlftHVQQcPXlD1w.svg)](https://asciinema.org/a/RFDlpRl2veUlftHVQQcPXlD1w)

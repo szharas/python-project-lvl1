@@ -5,6 +5,13 @@ from math import gcd
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
+def gcd(a, b):
+	# find the greatest common divisor
+    while b:
+        a, b = b, a%b
+    return a
+
+
 def generate_question():
     question = ''
     correct_answer = ''

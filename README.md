@@ -12,9 +12,9 @@ Created with:
 - flake8
 
 ### How to run?
-- Download using pip: `pip install --extra-index-url https://test.pypi.org/simple szharas-brain-games`.
+- Download using pip: `pip install --user --extra-index-url https://test.pypi.org/simple szharas-brain-games`.
 - After package is downloaded, you can run in terminal typing the name of the game (ex: brain-even).
-- Read the instructions and enjoy the game.
+- Read the instructions and enjoy the game. You have answer correctly three times, otherwise type 'exit' to stop the game.
 
 [![asciicast](https://asciinema.org/a/RFDlpRl2veUlftHVQQcPXlD1w.svg)](https://asciinema.org/a/RFDlpRl2veUlftHVQQcPXlD1w)
 

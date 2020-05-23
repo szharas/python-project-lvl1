@@ -22,4 +22,3 @@ def play_game(game, user_name):
             print("Let's try again, {}!".format(user_name))
 
     print("Congratulations, {}!".format(user_name))
-

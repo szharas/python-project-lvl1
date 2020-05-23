@@ -8,10 +8,10 @@ def is_prime(num):
     # Iterate from 2 to n / 2
     for i in range(2, num // 2):
         if (num % i) == 0:
-            return false
+            return False
             break
         else:
-            true
+            True
 
 
 def generate_question():

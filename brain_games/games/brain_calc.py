@@ -22,4 +22,3 @@ def generate_question():
         correct_answer = str(operand_1 * operand_2)
 
     return question, correct_answer
-

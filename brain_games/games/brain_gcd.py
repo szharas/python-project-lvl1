@@ -1,14 +1,13 @@
 from random import randint
-from math import gcd
 
 
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
 def gcd(a, b):
-	# find the greatest common divisor
+    # find the greatest common divisor
     while b:
-        a, b = b, a%b
+        a, b = b, a % b
     return a
 
 

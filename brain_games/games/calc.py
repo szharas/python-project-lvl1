@@ -1,24 +1,23 @@
 from random import randint, choice
+from operator import add, sub, mul
 
 
 DESCRIPTION = 'What is the result of the expression?'
 
 
-def generate_question():
-    question = ''
-    correct_answer = ''
-
+def generate_question_and_answer():
     operand_1 = randint(1, 100)
     operand_2 = randint(1, 100)
     operator = choice('-+*')
 
-    question = '{} {} {}'.format(operand_1, operator, operand_2)
-
     if operator == '+':
-        correct_answer = str(operand_1 + operand_2)
+        result = add(operand_1, operand_2)
     elif operator == '-':
-        correct_answer = str(operand_1 - operand_2)
+        result = sub(operand_1, operand_2)
     elif operator == '*':
-        correct_answer = str(operand_1 * operand_2)
+        result = mul(operand_1, operand_2)
+
+    question = '{} {} {}'.format(operand_1, operator, operand_2)
+    correct_answer = str(result)
 
     return question, correct_answer

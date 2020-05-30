@@ -5,7 +5,7 @@ DESCRIPTION = 'What number is missing in the progression?'
 PROGRESSION_LENGHT = 10  # runs 10 times
 
 
-def generate_question():
+def generate_question_and_answer():
     progression = []
     start_num = randint(1, 10)
     step = randint(1, 10)

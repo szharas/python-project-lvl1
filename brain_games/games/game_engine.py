@@ -1,12 +1,16 @@
 import prompt
+from brain_games.cli import welcome_user
 
 
-def play_game(game, user_name):
-    NO_OF_TRIES = 3
+NUMBER_OF_CORRECT_ANSWERS = 3  # number of correct answers to finish the game
+
+
+def play_game(game):
+    user_name = welcome_user(game.DESCRIPTION)
     count = 0
 
-    while count < NO_OF_TRIES:
-        question, correct_answer = game.generate_question()
+    while count < NUMBER_OF_CORRECT_ANSWERS:
+        question, correct_answer = game.generate_question_and_answer()
 
         print('Question: {}'.format(question))
         answer = prompt.string('Your answer: ')
@@ -14,8 +18,6 @@ def play_game(game, user_name):
         if answer == correct_answer:
             print('Correct!')
             count += 1
-        elif answer == 'exit':
-            break
         else:
             print("'{}' is wrong answer ;(. Correct answer was '{}'.".format(
                 answer, correct_answer))

@@ -14,9 +14,10 @@ def is_prime(num):
             True
 
 
-def generate_question():
-    num = randint(1, 1000)
-    question = str(num)
-    correct_answer = 'yes' if is_prime(num) else 'no'
+def generate_question_and_answer():
+    number = randint(1, 1000)
+
+    question = str(number)
+    correct_answer = 'yes' if is_prime(number) else 'no'
 
     return question, correct_answer

@@ -14,7 +14,7 @@ def gcd(a, b):
 def generate_question_and_answer():
     num_1 = randint(1, 100)
     num_2 = randint(1, 100)
-    
+
     question = '{} {}'.format(num_1, num_2)
     correct_answer = str(gcd(num_1, num_2))
 

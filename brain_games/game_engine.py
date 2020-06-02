@@ -3,6 +3,7 @@ import prompt
 
 ROUNDS_COUNT = 3
 
+
 def welcome_user():
     print('\nWelcome to the Brain Games!')
 
@@ -11,7 +12,7 @@ def get_users_name():
     print()
     name = prompt.string('May I have your name? ')
     print('Hello, {}!'.format(name))
-    
+
     return name
 
 

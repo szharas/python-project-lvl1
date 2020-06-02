@@ -1,6 +1,6 @@
 # python-project-lvl1
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability) [![Build Status](https://travis-ci.com/szharas/python-project-lvl1.svg?branch=master)](https://travis-ci.com/szharas/python-project-lvl1)
+[![Maintainability](https://api.codeclimate.com/v1/badges/94c4382ba45dfae5ef7c/maintainability)](https://codeclimate.com/github/szharas/python-project-lvl1/maintainability) [![Build Status](https://travis-ci.com/szharas/python-project-lvl1.svg?branch=master)](https://travis-ci.com/szharas/python-project-lvl1)
 
 This is brain-games package with five games: brain-calc, brain-even, brain-gcd, brain-prime and brain-progression.
 

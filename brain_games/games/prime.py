@@ -6,7 +6,11 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def is_prime(num):
     if num > 1:
-        if num % 2 == 0 or num % 3 == 0 or num % 5 == 0:
+        if num % 2 == 0:
+            return False
+        if num % 3 == 0:
+            return False
+        if num % 5 == 0:
             return False
         # Iterate from 2 to n / 2
         for i in range(2, num // 2):

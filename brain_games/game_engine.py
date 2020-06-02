@@ -1,15 +1,28 @@
 import prompt
-from brain_games.cli import welcome_user
 
 
-NUMBER_OF_CORRECT_ANSWERS = 3  # number of correct answers to finish the game
+ROUNDS_COUNT = 3
+
+def welcome_user():
+    print('\nWelcome to the Brain Games!')
+
+
+def get_users_name():
+    print()
+    name = prompt.string('May I have your name? ')
+    print('Hello, {}!'.format(name))
+    
+    return name
 
 
 def play_game(game):
-    user_name = welcome_user(game.DESCRIPTION)
-    count = 0
+    welcome_user()
+    print(game.DESCRIPTION)
 
-    while count < NUMBER_OF_CORRECT_ANSWERS:
+    user_name = get_users_name()
+    count = 0  # number of correct answers to finish the game
+
+    while count < ROUNDS_COUNT:
         question, correct_answer = game.generate_question_and_answer()
 
         print('Question: {}'.format(question))

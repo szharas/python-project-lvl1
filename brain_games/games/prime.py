@@ -5,13 +5,16 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(num):
-    # Iterate from 2 to n / 2
-    for i in range(2, num // 2):
-        if (num % i) == 0:
+    if num > 1:
+        if num % 2 == 0 or num % 3 == 0 or num % 5 == 0:
             return False
-            break
-        else:
-            True
+        # Iterate from 2 to n / 2
+        for i in range(2, num // 2):
+            if (num % i) == 0:
+                return False
+                break
+            else:
+                True
 
 
 def generate_question_and_answer():

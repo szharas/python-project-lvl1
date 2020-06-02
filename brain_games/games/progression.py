@@ -2,7 +2,7 @@ from random import randint
 
 
 DESCRIPTION = 'What number is missing in the progression?'
-PROGRESSION_LENGHT = 10  # runs 10 times
+PROGRESSION_LENGHT = 10
 
 
 def generate_question_and_answer():

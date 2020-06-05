@@ -4,12 +4,9 @@ import prompt
 ROUNDS_COUNT = 3
 
 
-def welcome_user():
-    print('\nWelcome to the Brain Games!')
-
-
 def play_game(game):
-    welcome_user()
+    print()
+    print('Welcome to the Brain Games!')
     print(game.DESCRIPTION)
     print()
     user_name = prompt.string('May I have your name? ')

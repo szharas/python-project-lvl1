@@ -8,19 +8,13 @@ def welcome_user():
     print('\nWelcome to the Brain Games!')
 
 
-def get_users_name():
-    print()
-    name = prompt.string('May I have your name? ')
-    print('Hello, {}!'.format(name))
-
-    return name
-
-
 def play_game(game):
     welcome_user()
     print(game.DESCRIPTION)
+    print()
+    user_name = prompt.string('May I have your name? ')
+    print('Hello, {}!'.format(user_name))
 
-    user_name = get_users_name()
     count = 0  # number of correct answers to finish the game
 
     while count < ROUNDS_COUNT:
